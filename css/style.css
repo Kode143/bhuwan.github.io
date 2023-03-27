@@ -1,0 +1,83 @@
+
+body{
+    margin: auto;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.active{
+    background-color: lightseagreen;
+}
+.navbar a{
+    font-size: x-large;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+.navbar a:hover:not(.active){
+    background: #ddd;
+}
+.navbar a:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+.sticky-social-media{
+    position:fixed;
+    right:0;
+    top:25%;
+    z-index:50;
+}
+.sticky-social-media a i{
+    color:#fff;
+    display:inline-block;
+    height:35px;
+    width:35px;
+    line-height: 35px;
+    background-color:red;
+    text-align:center;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2)
+}
+.sticky-social-media a i.fa-facebook{
+    background-color:#4862A3
+}
+.sticky-social-media a i.fa-twitter{
+    background-color:#00ABF1
+}
+.sticky-social-media a i.fa-google-plus{
+    background-color:#DB4437
+}
+.sticky-social-media a i.fa-youtube{
+    background-color:#CF2200
+}
+.sticky-social-media a i.fa-linkedin{
+    background-color:#007BB6
+}
+.sticky-social-media a i.fa-pininterest{
+    background-color:#BD081C
+}
+.sticky-social-media a i.fa-instagram{
+    background-color:#8C46C0
+}
+.background{
+    width: 700px;
+}
+#bhuwan{
+    color: red;
+    font-weight: 1100;
+    font-size: xx-large;
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .name{
+    margin-top: 80px;
+  }
